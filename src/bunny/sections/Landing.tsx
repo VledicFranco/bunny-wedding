@@ -5,15 +5,21 @@ import googleMapsPng from '../images/google-maps.png'
 import flowersBottomLeftPng from '../images/flowers-bottom-left.png'
 import flowersTopRightPng from '../images/flowers-top-right.png'
 
-const InvitationContainer = styled.div`
-    border: 2px solid #dddbf9;
-    margin-top: 50px;
-    padding: 80px;
+const Container = styled.div`
+    //border: 2px solid #ddd;
+    //margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
     border-radius: 10px;
     background-image: url(${flowersBottomLeftPng}), url(${flowersTopRightPng});
     background-position: bottom left, top right;
     background-size: 60%, 60%;
     background-repeat: no-repeat;
+    background-color: #eee;
 `
 
 const Names = {
@@ -64,6 +70,8 @@ const Date = {
         flex-direction: row;
         gap: 10px;
         align-items: center;
+        justify-content: center;
+        width: 100%;
         margin-bottom: 20px;
     `,
     Side: styled.div`
@@ -143,7 +151,7 @@ const LocationInfo = ({ content }: { content: Content }) =>
         <a href="https://maps.app.goo.gl/JY4GCKea3aD5Kcdf7" target="_blank">
             <Location.GoogleMaps src={googleMapsPng} />
         </a>
-        <Location.Link target="_blank" href="https://maps.app.goo.gl/JY4GCKea3aD5Kcdf7">{content.landing.location}</Location.Link>
+        <Location.Link target="_blank"  rel='noreferrer' href="https://maps.app.goo.gl/JY4GCKea3aD5Kcdf7">{content.landing.location}</Location.Link>
     </Location.Wrapper>
 
 const Description = styled.p`
@@ -152,12 +160,43 @@ const Description = styled.p`
     text-align: center;
 `
 
-const Landing = ({ content }: { content: Content }) => 
-    <InvitationContainer>
+const PickLanguage = {
+    Wrapper: styled.div`
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    `,
+    Button: styled.button<{ selected: boolean }>`
+        border: 0px;
+        background-color: transparent;
+        color: ${props => props.selected ? '#bbb' : colors.primary};
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 5px;
+        text-transform: uppercase; 
+        ${props => props.selected ? '' : 'cursor: pointer;'}
+        &:hover {
+            ${props => props.selected ? '' : 'font-weight: bold;'}
+        }
+    `,
+    Separator: styled.div`
+        padding: 0px 5px;
+    `,
+}
+
+const Landing = ({ content, onPickLanguage }: { content: Content, onPickLanguage: (lang: 'en' | 'es') => void }) => 
+    <Container>
+        <PickLanguage.Wrapper>
+            <PickLanguage.Button selected={content.lang === 'en'} onClick={() => onPickLanguage('en')}>English</PickLanguage.Button>
+            <PickLanguage.Separator>|</PickLanguage.Separator>
+            <PickLanguage.Button selected={content.lang === 'es'} onClick={() => onPickLanguage('es')}>Español</PickLanguage.Button>
+        </PickLanguage.Wrapper>
         <NameInfo content={content} />
-        <Description>{content.landing.invitationMessage}</Description>
+        <Description>{content.landing.message}</Description>
         <DateInfo content={content} />
         <LocationInfo content={content} />
-    </InvitationContainer>
+    </Container>
 
 export default Landing
