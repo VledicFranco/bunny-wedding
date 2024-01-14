@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bunny-wedding/static/css/main.264c1599.css",
-    "main.js": "/bunny-wedding/static/js/main.02aedea0.js",
+    "main.js": "/bunny-wedding/static/js/main.d84f5736.js",
     "static/js/787.f11a7580.chunk.js": "/bunny-wedding/static/js/787.f11a7580.chunk.js",
     "static/media/separator-2.png": "/bunny-wedding/static/media/separator-2.07dd8f831633a53c07a6.png",
     "static/media/separator-3.png": "/bunny-wedding/static/media/separator-3.978722328d9edb9918d2.png",
@@ -15,11 +15,11 @@
     "static/media/lvl3b.jpg": "/bunny-wedding/static/media/lvl3b.978b501f3b9a102010dd.jpg",
     "index.html": "/bunny-wedding/index.html",
     "main.264c1599.css.map": "/bunny-wedding/static/css/main.264c1599.css.map",
-    "main.02aedea0.js.map": "/bunny-wedding/static/js/main.02aedea0.js.map",
+    "main.d84f5736.js.map": "/bunny-wedding/static/js/main.d84f5736.js.map",
     "787.f11a7580.chunk.js.map": "/bunny-wedding/static/js/787.f11a7580.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.264c1599.css",
-    "static/js/main.02aedea0.js"
+    "static/js/main.d84f5736.js"
   ]
 }
