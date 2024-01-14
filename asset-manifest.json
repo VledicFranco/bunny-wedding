@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bunny-wedding/static/css/main.264c1599.css",
-    "main.js": "/bunny-wedding/static/js/main.f1856856.js",
+    "main.js": "/bunny-wedding/static/js/main.c9cf7d52.js",
     "static/js/787.f11a7580.chunk.js": "/bunny-wedding/static/js/787.f11a7580.chunk.js",
     "static/media/flowers-bottom-left.png": "/bunny-wedding/static/media/flowers-bottom-left.610f4d4ee4aed8baefc8.png",
     "static/media/flowers-top-right.png": "/bunny-wedding/static/media/flowers-top-right.76af4ce9c05a5cb1c7f7.png",
@@ -9,11 +9,11 @@
     "static/media/google-maps.png": "/bunny-wedding/static/media/google-maps.f92f59a3fcea3a084c5c.png",
     "index.html": "/bunny-wedding/index.html",
     "main.264c1599.css.map": "/bunny-wedding/static/css/main.264c1599.css.map",
-    "main.f1856856.js.map": "/bunny-wedding/static/js/main.f1856856.js.map",
+    "main.c9cf7d52.js.map": "/bunny-wedding/static/js/main.c9cf7d52.js.map",
     "787.f11a7580.chunk.js.map": "/bunny-wedding/static/js/787.f11a7580.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.264c1599.css",
-    "static/js/main.f1856856.js"
+    "static/js/main.c9cf7d52.js"
   ]
 }
