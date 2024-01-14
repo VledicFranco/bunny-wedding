@@ -14,12 +14,16 @@ const Container = styled.div`
     justify-content: center;
     height: 100vh;
     width: 100%;
-    border-radius: 10px;
     background-image: url(${flowersBottomLeftPng}), url(${flowersTopRightPng});
     background-position: bottom left, top right;
     background-size: 60%, 60%;
     background-repeat: no-repeat;
     background-color: #eee;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+
+    @media (min-width: 1300px) {
+        background-size: 40%, 40%;
+    }
 `
 
 const Names = {
