@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/bunnies.wedding/static/css/main.264c1599.css",
-    "main.js": "/bunnies.wedding/static/js/main.182d2547.js",
-    "static/js/787.f11a7580.chunk.js": "/bunnies.wedding/static/js/787.f11a7580.chunk.js",
-    "static/media/separator-3.png": "/bunnies.wedding/static/media/separator-3.978722328d9edb9918d2.png",
-    "static/media/separator-footer.png": "/bunnies.wedding/static/media/separator-footer.b6332530be327ef49083.png",
-    "static/media/separator-1.png": "/bunnies.wedding/static/media/separator-1.94edaeb967ef789a399f.png",
-    "static/media/flowers-bottom-left.png": "/bunnies.wedding/static/media/flowers-bottom-left.274a0c3764ef41bb80a0.png",
-    "static/media/flowers-top-right.png": "/bunnies.wedding/static/media/flowers-top-right.0e812e746ceac8c576c6.png",
-    "static/media/lvl3a.jpg": "/bunnies.wedding/static/media/lvl3a.2fd716416f776147deb0.jpg",
-    "static/media/lvl3c.jpg": "/bunnies.wedding/static/media/lvl3c.be9a6a364e0f3225f022.jpg",
-    "static/media/white-paper-texture.png": "/bunnies.wedding/static/media/white-paper-texture.426710c1807e999fe6fb.png",
-    "static/media/google-maps.png": "/bunnies.wedding/static/media/google-maps.f92f59a3fcea3a084c5c.png",
-    "index.html": "/bunnies.wedding/index.html",
-    "main.264c1599.css.map": "/bunnies.wedding/static/css/main.264c1599.css.map",
-    "main.182d2547.js.map": "/bunnies.wedding/static/js/main.182d2547.js.map",
-    "787.f11a7580.chunk.js.map": "/bunnies.wedding/static/js/787.f11a7580.chunk.js.map"
+    "main.css": "/static/css/main.264c1599.css",
+    "main.js": "/static/js/main.891dbaee.js",
+    "static/js/787.f11a7580.chunk.js": "/static/js/787.f11a7580.chunk.js",
+    "static/media/separator-3.png": "/static/media/separator-3.978722328d9edb9918d2.png",
+    "static/media/separator-footer.png": "/static/media/separator-footer.b6332530be327ef49083.png",
+    "static/media/separator-1.png": "/static/media/separator-1.94edaeb967ef789a399f.png",
+    "static/media/flowers-bottom-left.png": "/static/media/flowers-bottom-left.274a0c3764ef41bb80a0.png",
+    "static/media/flowers-top-right.png": "/static/media/flowers-top-right.0e812e746ceac8c576c6.png",
+    "static/media/lvl3a.jpg": "/static/media/lvl3a.2fd716416f776147deb0.jpg",
+    "static/media/lvl3c.jpg": "/static/media/lvl3c.be9a6a364e0f3225f022.jpg",
+    "static/media/white-paper-texture.png": "/static/media/white-paper-texture.426710c1807e999fe6fb.png",
+    "static/media/google-maps.png": "/static/media/google-maps.f92f59a3fcea3a084c5c.png",
+    "index.html": "/index.html",
+    "main.264c1599.css.map": "/static/css/main.264c1599.css.map",
+    "main.891dbaee.js.map": "/static/js/main.891dbaee.js.map",
+    "787.f11a7580.chunk.js.map": "/static/js/787.f11a7580.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.264c1599.css",
-    "static/js/main.182d2547.js"
+    "static/js/main.891dbaee.js"
   ]
 }
