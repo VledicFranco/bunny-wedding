@@ -6,6 +6,11 @@ import { useState } from 'react'
 import DressCode from './sections/DressCode'
 import Accommodation from './sections/Accommodation'
 import Footer from './sections/Footer'
+import { FirebaseApp } from 'firebase/app'
+import { Firestore } from 'firebase/firestore'
+import Rsvp from './sections/rsvp/Rsvp'
+import Gifts from './sections/Gifts'
+import WhatsApp from './sections/WhatsApp'
 
 const Background = styled.div`
     display: flex;
@@ -27,7 +32,7 @@ const InvitationContainer = styled.div`
     /*background-image: url(${whitePaperTexture});*/
 `
 
-const Main = () => {
+const Main = ({ firebase, firestore }: { firebase: FirebaseApp, firestore: Firestore }) => {
     const [c, setC] = useState(content.es)
     return (
         <Background>
@@ -39,6 +44,9 @@ const Main = () => {
                 }} />
                 <DressCode content={c} />
                 <Accommodation content={c} />
+                <Gifts content={c} />
+                <Rsvp content={c} firestore={firestore} />
+                <WhatsApp content={c} />
                 <Footer content={c} />
             </InvitationContainer>
         </Background>

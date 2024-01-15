@@ -4,7 +4,6 @@ import { BaseFont, CursiveFont, colors } from '../CommonCss'
 
 import separator1Png from '../images/separator-1.png'
 import lvl3aPng from '../images/dresscode/lvl3a.jpg'
-import lvl3bPng from '../images/dresscode/lvl3b.jpg'
 import lvl3cPng from '../images/dresscode/lvl3c.jpg'
 import SeparatorImage from '../common/SeparatorImage'
 
@@ -87,8 +86,8 @@ const ImageCarouselComponents = {
 
 const ImageCarousel = ({ srcs }: { srcs: string[] }) =>
     <ImageCarouselComponents.Container>
-        {srcs.map(src =>
-            <ImageCarouselComponents.ImageContainer>
+        {srcs.map((src, i) =>
+            <ImageCarouselComponents.ImageContainer key={i}>
                 <ImageCarouselComponents.Image src={src} />
             </ImageCarouselComponents.ImageContainer>
         )}

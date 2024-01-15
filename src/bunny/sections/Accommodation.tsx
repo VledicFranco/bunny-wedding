@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Content } from '../Content'
-import { BaseFont, CursiveFont, colors } from '../CommonCss'
+import { BaseFont, CursiveFont } from '../CommonCss'
 
 import separator3Png from '../images/separator-3.png'
 import SeparatorImage from '../common/SeparatorImage'
