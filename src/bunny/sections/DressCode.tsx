@@ -3,8 +3,12 @@ import { Content } from '../Content'
 import { BaseFont, CursiveFont, colors } from '../CommonCss'
 
 import separator1Png from '../images/separator-1.png'
+import lvl1aPng from '../images/dresscode/lvl1a.jpg'
+import lvl1bPng from '../images/dresscode/lvl1b.jpg'
+import lvl2aPng from '../images/dresscode/lvl2a.jpg'
+import lvl2bPng from '../images/dresscode/lvl2b.jpg'
 import lvl3aPng from '../images/dresscode/lvl3a.jpg'
-import lvl3cPng from '../images/dresscode/lvl3c.jpg'
+import lvl3bPng from '../images/dresscode/lvl3b.jpg'
 import SeparatorImage from '../common/SeparatorImage'
 
 const Container = styled.div`
@@ -102,15 +106,15 @@ const DressCode = ({ content }: { content: Content }) =>
 
         <Level>{content.dressCode.level} 1</Level>
         <SeeMore href='https://pin.it/2T98oVD13' target='_blank' rel='noreferrer'>{content.dressCode.more}</SeeMore>
-        <ImageCarousel srcs={[lvl3aPng, lvl3cPng]} />
+        <ImageCarousel srcs={[lvl1aPng, lvl1bPng]} />
 
         <Level>{content.dressCode.level} 2</Level>
         <SeeMore href='https://pin.it/5r3CxGp2b' target='_blank' rel='noreferrer'>{content.dressCode.more}</SeeMore>
-        <ImageCarousel srcs={[lvl3aPng, lvl3cPng]} />
+        <ImageCarousel srcs={[lvl2aPng, lvl2bPng]} />
 
         <Level>{content.dressCode.level} 3</Level>
         <SeeMore href='https://pin.it/32QHhQbHY' target='_blank' rel='noreferrer'>{content.dressCode.more}</SeeMore>
-        <ImageCarousel srcs={[lvl3aPng, lvl3cPng]} />
+        <ImageCarousel srcs={[lvl3aPng, lvl3bPng]} />
     </Container>
 
 export default DressCode
