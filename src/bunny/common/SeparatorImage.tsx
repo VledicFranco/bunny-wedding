@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 const Separator = styled.img`
-    width: 70%;
+    max-width: 250px;
 
-    @media (min-width: 1200px) {
-        width: 40%;
+    @media (min-width: 700px) {
+        max-width: 400px;
     }
 `
 

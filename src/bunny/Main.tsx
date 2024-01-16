@@ -1,16 +1,16 @@
 import styled from 'styled-components'
-import Landing from './sections/Landing'
+import Landing from './sections/page-0-invitation'
 import content from './Content'
 import whitePaperTexture from './images/white-paper-texture.png'
 import { useState } from 'react'
-import DressCode from './sections/DressCode'
-import Accommodation from './sections/Accommodation'
-import Footer from './sections/Footer'
+import DressCode from './sections/page-1-dress-code'
+import Accommodation from './sections/page-2-accomodation'
+import Footer from './sections/page-6-bunnies'
 import { FirebaseApp } from 'firebase/app'
 import { Firestore } from 'firebase/firestore'
-import Rsvp from './sections/rsvp/Rsvp'
-import Gifts from './sections/Gifts'
-import WhatsApp from './sections/WhatsApp'
+import Rsvp from './sections/page-4-rsvp/Rsvp'
+import Gifts from './sections/page-3-gifts'
+import WhatsApp from './sections/page-5-whatsapp'
 
 const Background = styled.div`
     display: flex;
@@ -18,7 +18,7 @@ const Background = styled.div`
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background-color: #eee;
+    background-color: #f8f2ed;
 `
 
 const InvitationContainer = styled.div`

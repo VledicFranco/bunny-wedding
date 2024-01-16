@@ -12,6 +12,7 @@ export type Content = {
         title: string,
         subtitle: string,
         message: string,
+        whiteNote: string,
         level: string,
         more: string,
     },
@@ -66,6 +67,7 @@ const es: Content = {
         title: 'Código de Vestimenta',
         subtitle: 'Formal Cottage Core / Fantasia',
         message: 'Sabemos que es un código de vestimenta poco común, pero queremos que se sientan libres de vestir como más les guste, siempre y cuando sea formal. Aquí les dejamos algunas ideas por nivel, de fácil de conseguir a más dificil:',
+        whiteNote: 'Nota: Por consideración a la novia se pide que no se usen vestidos totalmente blanco, pero igual esperamos encuentren inspiración en los vestidos blancos que encontrarán en las referencias.',
         level: 'Nivel',
         more: 'Ver mas...',
     },
@@ -78,19 +80,19 @@ const es: Content = {
         message: 'No queremos que se sientan obligados a regalarnos algo, pero si quieren hacerlo, les dejamos una mesa de regalos de Amazon, información de depósito, o sientanse libres de preguntarnos qué cosas nos gustan!',
     },
     whatsapp: {
-        title: 'Grupo de WhatsApp',
+        title: 'WhatsApp',
         message: 'Para mantenerlos al tanto de cualquier cambio, y principalmente para mantenerlos al tanto acerca del hospedaje y logística de viaje, les dejamos el link a una comunidad de WhatsApp.',
-        button: 'Unirse al Grupo',
+        button: 'Unirse',
     },
     rsvp: {
-        title: 'Confirma tu Asistencia',
-        message: 'Por favor, confirma antes del: 1 Marzo 2024',
+        title: 'Asistencia',
+        message: 'Por favor, confirma antes del 1 Marzo 2024, y registra cada invitado individualmente.',
         form: {
             fullname: 'Nombre completo',
             email: 'Correo Electrónico',
             attendingYes: 'Asistiré',
             attendingNo: 'No asistiré',
-            attendingNumber: 'Número de asistentes',
+            attendingNumber: 'No. Teléfonico',
             submit: 'Enviar',
             success: 'Gracias por confirmar tu asistencia!',
             please: 'Por favor ingresa',
@@ -120,6 +122,7 @@ const en: Content = {
         title: 'Dress Code',
         subtitle: 'Formal Cottage Core / Fae Fantasy',
         message: 'We know this is an unusual dress code, but we want you to feel free to dress however you like, as long as it is formal. Here are some ideas by level, from easiest to get to more difficult:',
+        whiteNote: 'Note: Out of consideration for the bride, we ask that you do not wear dresses that are completely white, but we still hope you find inspiration in the white dresses you will find in the references.',
         level: 'Level',
         more: 'See more...',
     },
@@ -132,19 +135,19 @@ const en: Content = {
         message: 'We do not want you to feel obligated to give us anything, but if you want to, we have an Amazon gift list, information for bank transfers, or feel free to ask us what we like!',
     },
     whatsapp: {
-        title: 'WhatsApp Group',
+        title: 'WhatsApp',
         message: 'To keep you updated of any changes, and mainly to keep you updated about accommodation and travel logistics, please join the WhatsApp community.',
-        button: 'Join the Group',
+        button: 'Join',
     },
     rsvp: {
         title: 'RSVP',
-        message: 'Please confirm before: March 1st 2024',
+        message: 'Please confirm before March 1st 2024, and register each guest individually.',
         form: {
             fullname: 'Full name',
             email: 'Email',
             attendingYes: 'I will attend',
             attendingNo: 'I will not attend',
-            attendingNumber: 'Number of attendees',
+            attendingNumber: 'Phone Number',
             submit: 'Submit',
             success: 'Thank you for confirming your attendance!',
             please: 'Please enter',
@@ -161,4 +164,6 @@ const en: Content = {
     },
 }
 
-export default { es, en }
+const content = { es, en }
+
+export default content

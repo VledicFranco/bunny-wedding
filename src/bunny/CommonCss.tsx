@@ -6,6 +6,11 @@ export const colors = {
 }
 
 export const BaseFont = css`
+    font-family: 'Times New Roman', Times, serif;
+    //text-transform: uppercase;
+`
+
+export const Barlow = css`
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
 `
