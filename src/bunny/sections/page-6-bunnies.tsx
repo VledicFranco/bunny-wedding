@@ -26,12 +26,13 @@ const Container = styled(SectionContainer)`
     background-repeat: no-repeat;
 
     @media (min-width: 700px) {
-        background-size: 600px;
+        background-size: 700px;
     }
 `
 
-const Image = styled(SeparatorImage)`
-    position: absolute;
+const Spacer = styled.div`
+    height: 50px;
+    width: 100%;
 `
 
 const Title = {
@@ -57,7 +58,8 @@ const Title = {
 
 const Footer = ({ content }: { content: Content }) =>
     <Container>
-        <Image src={separatorPng} />
+        <Spacer />
+        <SeparatorImage src={separatorPng} />
         <Title.Wrapper>
             <Title.H2>{content.footer.message}</Title.H2>
             <Title.SeparatorTitle src={titleSeparatorPng} />
