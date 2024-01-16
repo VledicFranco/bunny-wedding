@@ -82,7 +82,7 @@ const es: Content = {
     },
     whatsapp: {
         title: 'WhatsApp',
-        message: 'Para mantenerlos al tanto de cualquier cambio, y principalmente para mantenerlos al tanto acerca del hospedaje y logística de viaje, les dejamos el link a una comunidad de WhatsApp.',
+        message: 'Para mantenerlos al tanto de cualquier cambio, y principalmente de hospedaje y logística de viaje, les dejamos el link a una comunidad de WhatsApp.',
         message2: 'Si tienen alguna restricción alimenticia, por favor avisenos lo antes posible para poder tomarlo en cuenta.',
         button: 'Unirse',
     },
@@ -138,7 +138,7 @@ const en: Content = {
     },
     whatsapp: {
         title: 'WhatsApp',
-        message: 'To keep you updated of any changes, and mainly to keep you updated about accommodation and travel logistics, please join the WhatsApp community.',
+        message: 'To keep you updated of any changes, and mainly about accommodation and travel logistics, please join the WhatsApp community.',
         message2: 'If you have any dietary restrictions, please let us know as soon as possible so we can take it into account.',
         button: 'Join',
     },
