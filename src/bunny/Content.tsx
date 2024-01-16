@@ -27,6 +27,7 @@ export type Content = {
     whatsapp: {
         title: string,
         message: string,
+        message2: string,
         button: string,
     },
     rsvp: {
@@ -67,7 +68,7 @@ const es: Content = {
         title: 'Código de Vestimenta',
         subtitle: 'Formal Cottage Core / Fantasia',
         message: 'Sabemos que es un código de vestimenta poco común, pero queremos que se sientan libres de vestir como más les guste, siempre y cuando sea formal. Aquí les dejamos algunas ideas por nivel, de fácil de conseguir a más dificil:',
-        whiteNote: 'Nota: Por consideración a la novia se pide que no se usen vestidos totalmente blanco, pero igual esperamos encuentren inspiración en los vestidos blancos que encontrarán en las referencias.',
+        whiteNote: 'Por cortesía a los novios se pide que no se use vestimenta totalmente blanca, pero igual esperamos encuentren inspiración en los vestidos blancos que encontrarán en las referencias.',
         level: 'Nivel',
         more: 'Ver mas...',
     },
@@ -82,6 +83,7 @@ const es: Content = {
     whatsapp: {
         title: 'WhatsApp',
         message: 'Para mantenerlos al tanto de cualquier cambio, y principalmente para mantenerlos al tanto acerca del hospedaje y logística de viaje, les dejamos el link a una comunidad de WhatsApp.',
+        message2: 'Si tienen alguna restricción alimenticia, por favor avisenos lo antes posible para poder tomarlo en cuenta.',
         button: 'Unirse',
     },
     rsvp: {
@@ -122,7 +124,7 @@ const en: Content = {
         title: 'Dress Code',
         subtitle: 'Formal Cottage Core / Fae Fantasy',
         message: 'We know this is an unusual dress code, but we want you to feel free to dress however you like, as long as it is formal. Here are some ideas by level, from easiest to get to more difficult:',
-        whiteNote: 'Note: Out of consideration for the bride, we ask that you do not wear dresses that are completely white, but we still hope you find inspiration in the white dresses you will find in the references.',
+        whiteNote: 'As a courtesy to the bride and groom, we ask that you do not wear all white, but we still hope you find inspiration in the white dresses you will find in the references.',
         level: 'Level',
         more: 'See more...',
     },
@@ -137,6 +139,7 @@ const en: Content = {
     whatsapp: {
         title: 'WhatsApp',
         message: 'To keep you updated of any changes, and mainly to keep you updated about accommodation and travel logistics, please join the WhatsApp community.',
+        message2: 'If you have any dietary restrictions, please let us know as soon as possible so we can take it into account.',
         button: 'Join',
     },
     rsvp: {

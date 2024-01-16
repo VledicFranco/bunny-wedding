@@ -32,6 +32,7 @@ const WhatsApp = ({ content }: { content: Content }) =>
         <Title>{content.whatsapp.title}</Title>
         <SeparatorImage src={separatorPng} />
         <Paragraph>{content.whatsapp.message}</Paragraph>
+        <Paragraph>{content.whatsapp.message2}</Paragraph>
         <Button href="https://chat.whatsapp.com/KfZWUorjIBMAPnIXYmVxPI " target="_blank">{content.whatsapp.button}</Button>
         <SeparatorThin />
         <PageNumber p={5} />
