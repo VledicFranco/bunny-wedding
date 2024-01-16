@@ -166,10 +166,10 @@ const Location = {
 
 const LocationInfo = ({ content }: { content: Content }) =>
     <Location.Wrapper>
-        <a href="https://maps.app.goo.gl/JY4GCKea3aD5Kcdf7" target="_blank">
+        <a href="https://maps.app.goo.gl/JY4GCKea3aD5Kcdf7" target="_blank" rel="noreferrer">
             <Location.GoogleMaps src={googleMapsPng} />
         </a>
-        <Location.Link target="_blank"  rel='noreferrer' href="https://maps.app.goo.gl/JY4GCKea3aD5Kcdf7">{content.landing.location}</Location.Link>
+        <Location.Link target="_blank" rel='noreferrer' href="https://maps.app.goo.gl/JY4GCKea3aD5Kcdf7">{content.landing.location}</Location.Link>
     </Location.Wrapper>
 
 const Description = styled.p`
