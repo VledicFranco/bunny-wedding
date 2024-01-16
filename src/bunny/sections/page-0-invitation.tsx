@@ -1,10 +1,9 @@
 import styled from 'styled-components'
 import { Barlow, CursiveFont, colors } from '../CommonCss'
 import { Content } from '../Content'
+import SectionContainer from '../common/SectionContainer'
 import bg2Png from '../images/bg2.png'
 import googleMapsPng from '../images/google-maps.png'
-import SectionContainer from '../common/SectionContainer'
-import PageNumber from '../common/PageNumber'
 
 const Container = styled(SectionContainer)`
     margin: 0px;
@@ -71,17 +70,16 @@ const Names = {
     `,
 }
 
-const Spouse = ({ name, surname }: { name: string, surname: string }) =>
+const Spouse = ({ name }: { name: string }) =>
     <Names.Container>
         <Names.Name>{name}</Names.Name>
-        {/*<Names.Surname>{surname}</Names.Surname>*/}
     </Names.Container>
 
 const NameInfo = ({ content }: { content: Content }) =>
     <Names.Wrapper>
-        <Spouse name={content.landing.bride.name} surname={content.landing.bride.surname} />
+        <Spouse name={content.landing.bride.name} />
         <Names.Name>&</Names.Name>
-        <Spouse name={content.landing.groom.name} surname={content.landing.groom.surname} />
+        <Spouse name={content.landing.groom.name} />
     </Names.Wrapper>
 
 const Date = {
