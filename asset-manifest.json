@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.01b55cf5.css",
-    "main.js": "/static/js/main.a51cf2b0.js",
+    "main.js": "/static/js/main.0e5e88a4.js",
     "static/js/787.f11a7580.chunk.js": "/static/js/787.f11a7580.chunk.js",
     "static/media/separator-3.png": "/static/media/separator-3.978722328d9edb9918d2.png",
     "static/media/separator-5.png": "/static/media/separator-5.b6332530be327ef49083.png",
     "static/media/separator-4.png": "/static/media/separator-4.339fb4f75ea41e81a6c2.png",
     "static/media/separator-1.png": "/static/media/separator-1.94edaeb967ef789a399f.png",
     "static/media/separator-4a.png": "/static/media/separator-4a.614697eeb0075e9073d1.png",
+    "static/media/bg3.png": "/static/media/bg3.09227eba9dcbf7d0755c.png",
+    "static/media/bg4.png": "/static/media/bg4.4066fa24cad74163577f.png",
     "static/media/bg2.png": "/static/media/bg2.56c26820531b7d1ea56c.png",
     "static/media/bg1.png": "/static/media/bg1.567af95c897feb9f81ad.png",
     "static/media/separator-footer.png": "/static/media/separator-footer.c9d1789faea861476d58.png",
@@ -23,11 +25,11 @@
     "static/media/lvl3b.jpg": "/static/media/lvl3b.ed459972b98ddedeb013.jpg",
     "index.html": "/index.html",
     "main.01b55cf5.css.map": "/static/css/main.01b55cf5.css.map",
-    "main.a51cf2b0.js.map": "/static/js/main.a51cf2b0.js.map",
+    "main.0e5e88a4.js.map": "/static/js/main.0e5e88a4.js.map",
     "787.f11a7580.chunk.js.map": "/static/js/787.f11a7580.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01b55cf5.css",
-    "static/js/main.a51cf2b0.js"
+    "static/js/main.0e5e88a4.js"
   ]
 }
